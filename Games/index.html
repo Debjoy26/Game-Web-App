@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Games App</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 style="color: rgb(147, 194, 9);"><b><i>Games App</i></b></h1>
+    
+    <!-- Navigation -->
+    <div class="nav-buttons">
+      <button id="tic-tac-toe-btn">Tic-Tac-Toe</button>
+      <button id="memory-game-btn">Memory Game</button>
+    </div>
+    
+    <!-- Tic-Tac-Toe Game -->
+    <div id="tic-tac-toe-game" class="game-container">
+      <h2>Tic-Tac-Toe</h2>
+      <div id="tic-tac-toe-board" class="board"></div>
+      <p id="tic-tac-toe-status">Player X's turn</p>
+      <button id="tic-tac-toe-reset">Restart Game</button>
+    </div>
+    
+    <!-- Memory Game -->
+    <div id="memory-game" class="game-container">
+      <h2>Memory Game</h2>
+      <div class="game-info">
+        <p id="score">Score: 0</p>
+        <button id="restart-button" class="hidden">Restart Game</button>
+      </div>
+      <div id="game-board" class="game-board"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
