@@ -6,3 +6,7 @@
 # <h3>Also the android application is given.</h3>
 
 🐼🐼🐼🐼🐼🐼🐼
+
+
+
+{Updated versions are on the way}
